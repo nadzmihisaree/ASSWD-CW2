@@ -1,0 +1,90 @@
+:root {
+	--bg-cream: #F3F0D7;
+	--bg-dark-cream: #DFD3C3;
+	--dark-brown: #581e00;
+	--lora-font: "Lora", serif;
+
+}
+p,
+a,
+input,
+button,
+textarea,
+h4 {
+	font-family: var(--lora-font);
+	outline: none;
+}
+
+body {
+	background-color: var(--bg-cream);
+}
+.form_input {
+	background-color: var(--bg-dark-cream);
+	border: none;
+	height: 10%;
+	width: 100%;
+}
+.submit_button {
+	border: solid 1px var(--dark-brown);
+	background-color: transparent;
+	width: 40%;
+}
+.nav_button {
+	background-color: transparent;
+	border: none;
+}
+
+/* swiper */
+.bannerSwiper .swiper-slide img {
+	object-fit: cover;
+	width: 100%;
+	height: 525px;
+}
+
+.homeSection2 .swiper-slide img {
+	object-fit: cover;
+	width: 100%;
+	height: 350px;
+}
+.homeSection2 .swiper-button-next, .homeSection2 .swiper-button-prev{
+	position: relative;
+    height: 50px;
+    width: 50px;
+}
+.icon{
+	height: 30px;
+}
+.search_input{
+	background-color: var(--bg-dark-cream);
+	border: none;
+}
+/* .explore-img{
+	object-fit: cover;
+	height: 320px;
+} */
+.user_profile{
+	border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.profile-butt{
+	background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+.card_scroll{
+	overflow-y: auto;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.popup-img{
+	height: 325px;
+	object-fit: cover;
+}
+.home_card{
+	background-color: var(--bg-dark-cream);
+    border-radius: 30px;
+}
